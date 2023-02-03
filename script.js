@@ -49,7 +49,7 @@ function gameEngine() {
     inputDir = { x: 0, y: 0 };
     alert("Game Over. Press Any Key to Play Again");
     snakeArr = [{ x: 13, y: 15 }];
-    // musicSound.play();
+    musicSound.play();
     score = 0;
     scoreBox.innerHTML = "Score: " + score;
   }
